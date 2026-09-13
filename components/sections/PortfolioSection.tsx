@@ -42,6 +42,15 @@ const projects: Project[] = [
     tags: ['Camere', 'Esperienze', 'Galleria'],
     url: 'https://casa-nivea-demo.vercel.app/',
   },
+  {
+    image: '/bric-del-sole.jpg',
+    category: 'Cantina · Demo',
+    title: 'Bric del Sole',
+    description:
+      'Sito web demo per una cantina in Langa, con un tool interattivo di abbinamento cibo-vino: il calice si riempie e cambia colore in base al piatto scelto.',
+    tags: ['Abbinamento interattivo', 'Vigneto animato', 'Prenotazioni'],
+    url: 'https://bric-del-sole-demo.vercel.app/',
+  },
 ]
 
 function ProjectRow({ project, index }: { project: Project; index: number }) {
